@@ -17,7 +17,8 @@ SECRET_KEY = '8=76-t2!^pcqyfs1a(n*m0f$jhgy_#i#h=$mwox7g$$&vu^f3g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '192.168.0.8', '107.170.75.112', 'erickagrazal.com']
+ALLOWED_HOSTS = ['localhost', '192.168.0.8', '107.170.75.112',
+                 'erickagrazal.com', 'www.erickagrazal.com']
 
 
 # Application definition

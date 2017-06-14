@@ -1,11 +1,11 @@
 """
 Fabfile.py
 """
+
+
 from contextlib import contextmanager as _contextmanager
 from fabric.api import run, env, cd, local, puts, task, prefix, sudo
 from fabric.colors import green
-
-from .swap_commands import swapon as swpn
 
 
 """
