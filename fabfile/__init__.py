@@ -17,14 +17,14 @@ ENVS
 def staging():
     "Set environments as staging"
     env.hostname = 'production'
-    env.hosts = ['development.erickagrazal.com', ]
+    env.hosts = ['erickagrazal.com', ]
     env.user = 'deploy'
     env.base_project_name = '/www'
-    env.project_name = 'sap_reporter'
+    env.project_name = 'portfolio'
     env.project_folder = '%s/%s/%s' % (env.base_project_name, env.project_name,
                                        env.project_name)
     env.project_venv_name = 'django'
-    env.project_git_url = 'git@github.com:ErickAgrazal/sap_reporter.git'
+    env.project_git_url = 'git@github.com:ErickAgrazal/portfolio.git'
 
     env.directory = '%s/%s' % (env.base_project_name, env.project_name)
     env.venv_directory = '%s/%s/%s' % (env.base_project_name,
