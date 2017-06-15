@@ -105,7 +105,7 @@ def install_requirements():
         puts(green("Installing requirements for %s." % (env.hosts[0])))
         run("pip install --upgrade pip-tools")
         run("export DJANGO_SETTINGS_MODULE="" "
-            "&& pip install -r requirements/production.txt")
+            "&& pip install -r requirements.txt")
 
 
 @task
