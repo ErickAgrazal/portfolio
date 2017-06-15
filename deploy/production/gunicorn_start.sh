@@ -25,9 +25,6 @@ export PYTHONPATH=$DJANGODIR:$PYTHONPATH
 
 RUNDIR=$(dirname $SOCKFILE)
 test -d $RUNDIR || mkdir -p $RUNDIR
-if [ -fe $SOCKFILE ] ; then
-    rm $SOCKFILE
-fi
 
 
 # Start your Django Unicorn

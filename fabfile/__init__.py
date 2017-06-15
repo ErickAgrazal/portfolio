@@ -306,8 +306,8 @@ def migrate():
     "Django Syncdb"
     with virtualenv():
         puts(green('Migrating database'))
-        run('python manage.py migrate --settings=src.settings.%s'
-            % (env.hostname))
+        run('python manage.py migrate --settings=%s.settings.%s'
+            % (env.project_name, env.hostname))
 
 
 @task
