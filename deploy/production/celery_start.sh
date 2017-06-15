@@ -8,7 +8,7 @@ SOCKFILE=/www/$NAME/run/gunicorn.sock    				# we will communicte using this uni
 USER=deploy                                         	# the user to run as
 GROUP=deploy                                      		# the group to run as
 NUM_WORKERS=3                                       	# how many worker processes should Gunicorn spawn
-DJANGO_SETTINGS_MODULE="src.settings.production"      	# which settings file should Django use
+DJANGO_SETTINGS_MODULE="portfolio.settings.production"      	# which settings file should Django use
 DJANGO_WSGI_MODULE="portfolio.wsgi"              				# WSGI module name
 echo "Starting $NAME as `whoami`"
 
