@@ -10,5 +10,8 @@
 @media all and (min-width: 768px){
  .location{
   position: absolute;
+  right: 0;
+  top: 2px;
+  color: #8a8a8a;
  }
 }
