@@ -9,7 +9,8 @@ CREATE DATABASE django
     LC_COLLATE = 'C'
     LC_CTYPE = 'C'
     TABLESPACE = pg_default
-    CONNECTION LIMIT = -1;
+    CONNECTION LIMIT = -1
+    TEMPLATE template0;
 
 CREATE USER django WITH PASSWORD 'fi4ierie1queaW7bfi4ierie1queaW7b';
 

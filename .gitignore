@@ -94,3 +94,6 @@ ENV/
 # SQL Lite
 *.sqlite
 *.sqlite3
+
+# Visual Studio Code
+.vscode/
